@@ -1,0 +1,10 @@
+synthrec:
+  input:
+    resource: ivt-goldrecs.csv
+    delimiter: ','
+    mapping: input/gold.mapping
+    moniker: gold
+
+spring:
+  profiles:
+    include: dicts

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/syngen.iml" filepath="$PROJECT_DIR$/syngen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/synthrec-core/synthrec-core.iml" filepath="$PROJECT_DIR$/.idea/modules/synthrec-core/synthrec-core.iml" group="synthrec-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/synthrec-core/synthrec-core_main.iml" filepath="$PROJECT_DIR$/.idea/modules/synthrec-core/synthrec-core_main.iml" group="synthrec-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/synthrec-core/synthrec-core_test.iml" filepath="$PROJECT_DIR$/.idea/modules/synthrec-core/synthrec-core_test.iml" group="synthrec-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/synthrec-data/synthrec-data.iml" filepath="$PROJECT_DIR$/.idea/modules/synthrec-data/synthrec-data.iml" group="synthrec-data" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/synthrec-data/synthrec-data_main.iml" filepath="$PROJECT_DIR$/.idea/modules/synthrec-data/synthrec-data_main.iml" group="synthrec-data" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/synthrec-data/synthrec-data_test.iml" filepath="$PROJECT_DIR$/.idea/modules/synthrec-data/synthrec-data_test.iml" group="synthrec-data" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/synthrec-generator/synthrec-generator.iml" filepath="$PROJECT_DIR$/.idea/modules/synthrec-generator/synthrec-generator.iml" group="synthrec-generator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/synthrec-generator/synthrec-generator_main.iml" filepath="$PROJECT_DIR$/.idea/modules/synthrec-generator/synthrec-generator_main.iml" group="synthrec-generator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/synthrec-generator/synthrec-generator_test.iml" filepath="$PROJECT_DIR$/.idea/modules/synthrec-generator/synthrec-generator_test.iml" group="synthrec-generator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/synthrec-oss-deps/synthrec-oss-deps.iml" filepath="$PROJECT_DIR$/.idea/modules/synthrec-oss-deps/synthrec-oss-deps.iml" group="synthrec-oss-deps" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/synthrec-oss-deps/synthrec-oss-deps_main.iml" filepath="$PROJECT_DIR$/.idea/modules/synthrec-oss-deps/synthrec-oss-deps_main.iml" group="synthrec-oss-deps" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/synthrec-oss-deps/synthrec-oss-deps_test.iml" filepath="$PROJECT_DIR$/.idea/modules/synthrec-oss-deps/synthrec-oss-deps_test.iml" group="synthrec-oss-deps" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/synthrec-sample-deps/synthrec-sample-deps.iml" filepath="$PROJECT_DIR$/.idea/modules/synthrec-sample-deps/synthrec-sample-deps.iml" group="synthrec-sample-deps" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/synthrec-sample-deps/synthrec-sample-deps_main.iml" filepath="$PROJECT_DIR$/.idea/modules/synthrec-sample-deps/synthrec-sample-deps_main.iml" group="synthrec-sample-deps" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/synthrec-sample-deps/synthrec-sample-deps_test.iml" filepath="$PROJECT_DIR$/.idea/modules/synthrec-sample-deps/synthrec-sample-deps_test.iml" group="synthrec-sample-deps" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/synthrec-scripts/synthrec-scripts.iml" filepath="$PROJECT_DIR$/.idea/modules/synthrec-scripts/synthrec-scripts.iml" group="synthrec-scripts" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/synthrec-scripts/synthrec-scripts_main.iml" filepath="$PROJECT_DIR$/.idea/modules/synthrec-scripts/synthrec-scripts_main.iml" group="synthrec-scripts" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/synthrec-scripts/synthrec-scripts_test.iml" filepath="$PROJECT_DIR$/.idea/modules/synthrec-scripts/synthrec-scripts_test.iml" group="synthrec-scripts" />
+    </modules>
+  </component>
+</project>

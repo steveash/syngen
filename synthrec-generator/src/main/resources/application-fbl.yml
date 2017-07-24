@@ -1,0 +1,10 @@
+synthrec:
+  input:
+    resource: input/febrl500k.clob
+    delimiter: ','
+    mapping: input/febrl.mapping
+    moniker: febrl
+
+spring:
+  profiles:
+    include: dicts

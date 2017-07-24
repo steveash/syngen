@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":synthrec-oss-deps" external.linked.project.path="$MODULE_DIR$/../../../synthrec-oss-deps" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="com.github.steveash.synthrec" external.system.module.version="0.0.2-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../synthrec-oss-deps">
+      <excludeFolder url="file://$MODULE_DIR$/../../../synthrec-oss-deps/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../synthrec-oss-deps/build/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../synthrec-oss-deps/build/libs" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../synthrec-oss-deps/build/resources" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../synthrec-oss-deps/build/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../synthrec-oss-deps/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (c) 2017, Steve Ash
+  ~
+  ~ This file is part of Syngen.
+  ~ Syngen is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Syngen is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Syngen.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<Configuration status="warn">
+  <Properties>
+    <property name="logFolder">target/logs</property>
+    <property name="logPattern">%d %5p %15.15t %30.30c{2} - %m%n</property>
+    <property name="stdPattern">%d{ABSOLUTE} %5p %20.20c{2} - %m%n</property>
+    <property name="filePattern">%d{MM-dd-yyyy}-%i</property>
+  </Properties>
+
+  <Appenders>
+
+    <Console name="stdout" target="SYSTEM_OUT">
+      <PatternLayout pattern="${stdPattern}"/>
+    </Console>
+
+    <RollingFile name="rolling" fileName="${logFolder}/output.log"
+                 filePattern="${logFolder}/output-${filePattern}.log">
+      <PatternLayout pattern="${logPattern}"/>
+      <Policies>
+        <TimeBasedTriggeringPolicy/>
+        <SizeBasedTriggeringPolicy size="100 MB"/>
+      </Policies>
+      <DefaultRolloverStrategy max="10"/>
+    </RollingFile>
+
+  </Appenders>
+
+  <Loggers>
+
+    <Logger name="com.github.steveash" level="debug"/>
+    <Logger name="org.springframework" level="warn"/>
+
+    <Root level="warn">
+      <AppenderRef ref="stdout"/>
+      <!--<AppenderRef ref="rolling"/>-->
+    </Root>
+
+  </Loggers>
+</Configuration>

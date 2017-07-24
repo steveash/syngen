@@ -1,0 +1,10 @@
+synthrec:
+  input:
+    resource: input/SmallSampleFile.csv
+    delimiter: ','
+    mapping: input/sample.mapping
+    moniker: dptivt
+
+spring:
+  profiles:
+    include: dicts

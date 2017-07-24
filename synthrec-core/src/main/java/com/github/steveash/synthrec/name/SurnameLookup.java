@@ -1,0 +1,41 @@
+/*
+ * Copyright (c) 2017, Steve Ash
+ *
+ * This file is part of Syngen.
+ * Syngen is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * Syngen is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Syngen.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+package com.github.steveash.synthrec.name;
+
+/**
+ * The data for all public surnames; by default we only use SSA DMF and Census lists of common surnames. You should
+ * provide your own lists of names that you consider public. All names should be normalized with the Names
+ * normalizer
+ * @author Steve Ash
+ */
+public interface SurnameLookup {
+
+    /**
+     * Returns true if the given *normalized* name is a public token
+     * @param normalizedName
+     * @return
+     */
+    boolean isPublicName(String normalizedName);
+
+    /**
+     * Returns all of the publically known surnames (normalized)
+     * @return
+     */
+    Iterable<String> names();
+}

@@ -1,0 +1,2 @@
+name-dict.csv filter=lfs diff=lfs merge=lfs -text
+nomino-dict.csv filter=lfs diff=lfs merge=lfs -text

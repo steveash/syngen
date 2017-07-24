@@ -1,0 +1,56 @@
+spring:
+  profiles:
+#    include: ivt
+
+service.name: synthrec
+
+synthrec:
+  # the date to use to evaluate the "age" of the records that we're looking at
+  basis-date: 2012-01-01
+  output-folder: reports
+
+  quality:
+    # each of these will have
+    #  COUNT.xxx only rank + counts (i.e. no PHI)
+    #  VALS.xxx has all of the values in rank order
+    #  updates the file data-quality-stats.csv with the the state line for these fields
+    count-fields:
+      - name-prefix
+      - name-given
+      - name-middle
+      - name-family
+      - name-suffix
+      - address-full
+      - address-street
+      - address-city
+      - address-state
+      - address-zip
+      - sex
+      - phone
+      - dob
+      - ssn
+
+  gen:
+    records:
+      min-count-anonymity: 30
+      produce-count: 1000
+
+      # the fields to include in gold records
+      gold-fields:
+        - name-given
+        - name-middle
+        - name-family
+        - name-suffix
+        #- given-name-structure
+        #- family-name-structure
+        - address-line1
+        - address-city
+        - address-state
+        - address-zip
+        #- birth-state
+        - dob
+        - ssn
+        - sex
+        - phone
+        #- phone-pattern
+        - culture

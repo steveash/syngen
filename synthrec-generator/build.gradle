@@ -1,0 +1,32 @@
+/*
+ * Copyright (c) 2017, Steve Ash
+ *
+ * This file is part of Syngen.
+ * Syngen is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * Syngen is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Syngen.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+dependencies {
+    compile project(":synthrec-core")
+    compile project(":synthrec-data")
+    compile 'org.jfree:jfreechart'
+    compile 'args4j:args4j'
+    compile 'io.dropwizard.metrics:metrics-core'
+    compile('org.springframework.boot:spring-boot-starter')
+    compile('org.springframework.boot:spring-boot-starter-log4j2')
+    compile("org.springframework.boot:spring-boot-starter-actuator")
+    optional "org.springframework.boot:spring-boot-configuration-processor"
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+}
+
+compileJava.dependsOn(processResources)

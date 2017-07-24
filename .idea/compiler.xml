@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="synthrec-core_main" target="1.8" />
+      <module name="synthrec-core_test" target="1.8" />
+      <module name="synthrec-data_main" target="1.8" />
+      <module name="synthrec-data_test" target="1.8" />
+      <module name="synthrec-generator_main" target="1.8" />
+      <module name="synthrec-generator_test" target="1.8" />
+      <module name="synthrec-oss-deps_main" target="1.8" />
+      <module name="synthrec-oss-deps_test" target="1.8" />
+      <module name="synthrec-sample-deps_main" target="1.8" />
+      <module name="synthrec-sample-deps_test" target="1.8" />
+      <module name="synthrec-scripts_main" target="1.8" />
+      <module name="synthrec-scripts_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
